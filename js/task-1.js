@@ -1,8 +1,5 @@
-let quantity;
-let pricePerDroid;
-let customerCredits;
-let totalPrice;
 function makeTransaction(quantity, pricePerDroid, customerCredits) {
+  const totalPrice;
   totalPrice = quantity * pricePerDroid;
 
   if (totalPrice > customerCredits) {
